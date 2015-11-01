@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body { width: 980px; margin: 0 auto; height: 1000px;}
+		.left { clear: both; height: 50px; width: 50px; background: #999; float: left; margin-right: 10px; }
+		.right { overflow: hidden; background: #666; height: 50px; }
+		.right2 { display: table-cell; width: 2000px; *display: inline-block; *width: auto; background: #666; }
+	</style>
+</head>
+<body>
+	<div style="height:0; overflow:hidden;text-align:right;">
+		<img style="position:absolute; height: 50px; width:50px; " src="http://image.zhangxinxu.com/image/study/s/s128/mm1.jpg" />
+	</div>
+	<div>
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+	<!-- 两栏自适应布局 -->
+	<div>
+		<div class="left">left</div>
+		<div class="right2">right</div>
+	</div>
+</body>
+</html>
